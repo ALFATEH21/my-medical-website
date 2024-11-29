@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أفضل المستلزمات الطبية - منتجات عالية الجودة</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1E6F8C;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1, h2 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .products, .testimonials {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+        .product, .testimonial {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+            width: 30%;
+            text-align: center;
+        }
+        .product img, .testimonial img {
+            max-width: 100%;
+            height: auto;
+        }
+        .cta {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .cta button {
+            background-color: #1E6F8C;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>منتجات طبية موثوقة لصحة أفضل</h1>
+    <p>نحن هنا لنساعدك على العناية بصحتك وبصحة مرضاك باستخدام أحدث وأفضل المعدات الطبية المتوفرة.</p>
+</header>
+
+<div class="container">
+    <section>
+        <h2>منتجاتنا</h2>
+        <div class="products">
+            <div class="product">
+                <img src="https://via.placeholder.com/300x200" alt="مقياس ضغط الدم">
+                <h3>مقياس ضغط الدم</h3>
+                <p>جهاز ضغط الدم الرقمي سهل الاستخدام، يتميز بدقة عالية لضمان نتائج موثوقة.</p>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300x200" alt="جهاز قياس السكر">
+                <h3>جهاز قياس السكر</h3>
+                <p>جهاز فحص السكر المحمول، مناسب للاستخدام المنزلي بشكل مريح وسريع.</p>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300x200" alt="أدوات جراحية">
+                <h3>أدوات جراحية</h3>
+                <p>مجموعة أدوات جراحية معتمدة، مصممة للاستخدام في العمليات الجراحية الدقيقة.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>لماذا تختارنا؟</h2>
+        <p>نحن لا نقدم مجرد منتجات طبية، بل نقدم لك الثقة. نحن نتعاون مع الشركات الرائدة في تصنيع المستلزمات الطبية لنضمن لك الحصول على أعلى مستوى من الجودة والسلامة.</p>
+        <ul>
+            <li>منتجات معتمدة من الجهات الصحية العالمية.</li>
+            <li>سعر تنافسي وجودة لا تضاهى.</li>
+            <li>خدمة العملاء 24/7.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>كيف نعمل؟</h2>
+        <p>نحن نضمن لك تجربة تسوق سلسة وآمنة. اختر المنتج الذي ترغب فيه، ثم نحن نهتم بالباقي. مع نظام الشحن السريع، ستصل منتجاتك في الوقت المحدد وبأعلى درجات الأمان.</p>
+    </section>
+
+    <div class="cta">
+        <button>تسوق الآن</button>
+    </div>
+
+    <section class="testimonials">
+        <h2>آراء عملائنا</h2>
+        <div class="testimonial">
+            <img src="https://via.placeholder.com/150" alt="د. محمد">
+            <p><strong>د. محمد (طبيب جراحة)</strong></p>
+            <p>"لقد كانت تجربتي مع هذه المنتجات رائعة. دقة الأداء وسهولة الاستخدام جعلت عملي أسهل."</p>
+        </div>
+        <div class="testimonial">
+            <img src="https://via.placeholder.com/150" alt="سارة">
+            <p><strong>سارة (ممرضة)</strong></p>
+            <p>"أوصي بشدة بهذه الأدوات، فهي توفر الوقت وتحسن الكفاءة."</p>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 جميع الحقوق محفوظة - أفضل المستلزمات الطبية</p>
+</footer>
+
+</body>
+</html>
